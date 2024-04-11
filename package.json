@@ -1,0 +1,23 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/webdriverio": "^5.0.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mocha": "10.4.0",
+    "mongo": "^0.1.0",
+    "mongodb": "^6.3.0",
+    "selenium-webdriver": "^4.19.0",
+    "upstox-js-sdk": "^2.4.0",
+    "webdriverio": "^8.35.1"
+  }
+}
